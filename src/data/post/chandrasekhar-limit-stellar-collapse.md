@@ -35,17 +35,17 @@ For white dwarfs below a specific mass, this quantum resistance balances gravity
 
 Chandrasekhar asked a question the leading physicists of his era had overlooked: **What happens when gravity becomes so strong that compressed electrons are forced to move close to the speed of light?**
 
-Under classical physics, compressing electrons increases their velocity and pressure indefinitely. But Special Relativity imposes an inviolable speed limit: nothing can travel faster than $c$. 
+Under classical physics, compressing electrons increases their velocity and pressure indefinitely. But Special Relativity imposes an inviolable speed limit: nothing can travel faster than *c*. 
 
 Because electrons cannot exceed light speed, their degeneracy pressure cannot scale to infinity. Chandrasekhar derived the maximum mass a degenerate electron core can support:
 
-$$M_{\text{Ch}} \approx \frac{\omega_3^0 \sqrt{3\pi}}{2} \left(\frac{\hbar c}{G}\right)^{3/2} \left(\frac{1}{\mu_e m_H}\right)^2 \approx 1.44 M_\odot$$
+> ***M*_(Ch) ≈ [(*ω*₃⁰ · √(3π)) / 2] · (ħ*c* / *G*)^(3/2) · [1 / (*μ*ₑ · *m*_H)]² ≈ 1.44 *M*☉**
 
 Where:
-* $\hbar$ is the reduced Planck constant (quantum scale).
-* $c$ is the speed of light (relativistic limit).
-* $G$ is Newton's gravitational constant (cosmic scale).
-* $M_\odot$ is the mass of our Sun.
+* ***ħ*** (*h-bar*) is the reduced Planck constant (quantum scale).
+* ***c*** is the speed of light (relativistic limit).
+* ***G*** is Newton's gravitational constant (cosmic scale).
+* ***M*☉** is the mass of our Sun (*1 Solar Mass*).
 
 This number—**1.44 Solar Masses**—is the **Chandrasekhar Limit**.
 

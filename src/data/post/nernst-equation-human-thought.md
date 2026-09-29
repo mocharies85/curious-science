@@ -15,7 +15,7 @@ tags:
 
 High school electrochemistry introduces the **Nernst Equation** as a tool for calculating the electrical reduction potential of metallic battery electrodes:
 
-$$E = \frac{RT}{zF} \ln\left(\frac{[Ion]_{out}}{[Ion]_{in}}\right)$$
+> ***E* = (*RT* / *zF*) · ln([Ion]ₒᵤₜ / [Ion]ᵢₙ)**
 
 Most students view it as a dry exercise in chemical thermodynamics involving beakers and zinc plates. Almost nobody points out the profound reality: **this exact formula is the mechanical foundation of human consciousness.**
 
@@ -29,7 +29,7 @@ That tiny voltage might seem negligible compared to a 1.5-volt AA battery, but c
 
 How does the brain build this field? Through relentless mechanical labor:
 * Embedded within neuronal membranes are millions of **Sodium-Potassium ATPase pumps**.
-* Consuming nearly **20% of your body's total caloric energy** simply while resting, these molecular pumps constantly eject three sodium ions ($Na^+$) for every two potassium ions ($K^+$) they draw inward.
+* Consuming nearly **20% of your body's total caloric energy** simply while resting, these molecular pumps constantly eject three sodium ions (Na⁺) for every two potassium ions (K⁺) they draw inward.
 * When a threshold is reached, voltage-gated ion channels snap open, permitting a massive flood of positive ions to cross the threshold. 
 
 This millisecond cascade is the **Action Potential**—the universal binary code of the nervous system.

@@ -21,19 +21,19 @@ If the global network of 31 GPS satellites orbiting Earth failed to account for 
 
 ## The Tug-of-War of Satellite Time
 
-To determine your precise location on a highway, your phone catches electromagnetic signals from at least four GPS satellites. By measuring the fraction of a millisecond it takes for each radio wave to arrive, your phone triangulates its position. Because radio signals travel at the speed of light ($c \approx 300,000\text{ km/s}$), an error of just **one microsecond** translates to a positional error of 300 meters.
+To determine your precise location on a highway, your phone catches electromagnetic signals from at least four GPS satellites. By measuring the fraction of a millisecond it takes for each radio wave to arrive, your phone triangulates its position. Because radio signals travel at the speed of light (*c* ≈ 300,000 km/s), an error of just **one microsecond** translates to a positional error of 300 meters.
 
 Up at an altitude of 20,200 kilometers, two opposing relativistic phenomena fight over the satellite's onboard rubidium atomic clocks:
 
 ### 1. Special Relativity (Kinematic Time Dilation)
 The satellites are moving rapidly relative to observers on Earth, traveling at approximately 14,000 km/h. According to Special Relativity:
 
-$$t' = \frac{t}{\sqrt{1 - v^2/c^2}}$$
+> ***t'* = *t* / √(1 − *v*² / *c*²)**
 
 High velocity causes moving clocks to tick slower. This effect causes the satellite clocks to lose approximately **7 microseconds per day** compared to ground-based clocks.
 
 ### 2. General Relativity (Gravitational Time Dilation)
-However, General Relativity dictates that clocks closer to a massive gravitational body (like Earth’s core) tick slower than clocks located further away in weaker gravitational fields. 
+However, General Relativity dictates that clocks closer to a massive gravitational body (like Earth’s core) tick slower than clocks located further away in weaker gravitational fields.
 
 Because the satellites orbit high above Earth's gravitational well, their clocks tick faster. This gravitational advantage adds approximately **45 microseconds per day**.
 
@@ -41,10 +41,10 @@ Because the satellites orbit high above Earth's gravitational well, their clocks
 
 Calculate the net difference:
 
-$$+45\text{ \mu s} - 7\text{ \mu s} = +38\text{ microseconds per day}$$
+> **+45 μs − 7 μs = +38 microseconds per day**
 
 To the average person, 38 microseconds sounds like nothing. But in navigation geometry, leaving a 38-microsecond drift uncorrected means positional calculations drift by **11.4 kilometers every single day**. Within three days, your navigation app would show you in the next city.
 
-Engineers solved this by programming GPS satellite clocks to tick at **10.22999999543 MHz** before launch—deliberately slower than their nominal 10.23 MHz rate. Once in orbit, relativistic dilation accelerates them to the precise frequency needed to match Earth time. 
+Engineers solved this by programming GPS satellite clocks to tick at **10.22999999543 MHz** before launch—deliberately slower than their nominal 10.23 MHz rate. Once in orbit, relativistic dilation accelerates them to the precise frequency needed to match Earth time.
 
 Einstein was not writing sci-fi; he was drafting the blueprint for modern satellite navigation.

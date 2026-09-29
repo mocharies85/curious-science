@@ -15,9 +15,9 @@ tags:
 
 In intermediate science classes, hydrostatic pressure is introduced as a clean, straightforward linear formula:
 
-$$P = \rho g h$$
+> ***P* = *ρ* · *g* · *h***
 
-Where $\rho$ is liquid density, $g$ is gravitational acceleration, and $h$ is fluid depth. On a whiteboard, calculating the pressure of an Olympic swimming pool yields tidy numbers.
+Where ***P*** is hydrostatic pressure, ***ρ*** (*rho*) is fluid density, ***g*** is gravitational acceleration, and ***h*** is fluid depth. On a whiteboard, calculating the pressure of an Olympic swimming pool yields tidy numbers.
 
 Take that same formula down to the Challenger Deep—the deepest known crevice on Earth, sinking nearly 11,000 meters into the Western Pacific—and the numbers become terrifying.
 

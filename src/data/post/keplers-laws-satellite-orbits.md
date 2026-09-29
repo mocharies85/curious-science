@@ -15,7 +15,7 @@ tags:
 
 In high school physics, few equations feel more abstract than Johannes Kepler’s Third Law of Planetary Motion:
 
-$$T^2 \propto a^3$$
+> ***T*² ∝ *a*³**
 
 Teachers wrote it down, asked students to calculate the orbital period of Mars, and moved on. To most teenagers, it seemed like an obsolete piece of 17th-century trivia—a geometric exercise solved by a German astronomer long before the invention of electric lights, internal combustion engines, or digital computing.
 
@@ -23,7 +23,7 @@ Yet right now, more than 10,000 active artificial satellites are racing above yo
 
 ## The Hidden Mechanics: Balance at 17,500 mph
 
-Kepler discovered that the square of an orbital period ($T$) is directly proportional to the cube of the semi-major axis ($a$) of its orbit. Translated into modern engineering terms: **the closer an object is to Earth, the faster it must move to avoid being dragged into an incinerating death spiral.**
+Kepler discovered that the square of an orbital period (*T*) is directly proportional to the cube of the semi-major axis (*a*) of its orbit. Translated into modern engineering terms: **the closer an object is to Earth, the faster it must move to avoid being dragged into an incinerating death spiral.**
 
 In Low Earth Orbit (LEO), around 550 kilometers above sea level, Earth's gravitational pull is still roughly 90% of what you feel on the surface. Satellites do not float in "zero gravity"—they are in permanent free-fall. 
 
