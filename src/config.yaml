@@ -1,30 +1,31 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: 'Curious Science'
+  site: 'https://curious-science.pages.dev'
   base: '/'
   trailingSlash: false
 
-  googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
+  # Kosongkan atau isi nanti jika sudah mendaftarkan ke Google Search Console
+  googleSiteVerificationId: ''
 
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: 'Curious Science — Frontiers of Physics, Cosmos & Mind'
+    template: '%s — Curious Science'
+  description: 'Explorations into the deepest questions of modern cosmology, quantum physics, extreme biology, and unexplained scientific phenomena.'
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: 'Curious Science'
     images:
       - url: '~/assets/images/default.png'
         width: 1200
         height: 628
     type: website
   twitter:
-    handle: '@arthelokyo'
-    site: '@arthelokyo'
+    handle: ''
+    site: ''
     cardType: summary_large_image
 
 i18n:
@@ -34,29 +35,29 @@ i18n:
 apps:
   blog:
     isEnabled: true
-    postsPerPage: 8
+    postsPerPage: 6
 
     post:
       isEnabled: true
-      permalink: '/%slug%' # Variables: %slug%, %year%, %month%, %day%, %hour%, %minute%, %second%, %category%
+      permalink: '/%slug%' # Struktur URL artikel bersih (contoh: curious-science.pages.dev/dark-matter-mystery)
       robots:
         index: true
 
     list:
       isEnabled: true
-      pathname: 'blog' # Blog main path, you can change this to "articles" (/articles)
+      pathname: 'blog' # Halaman indeks seluruh artikel
       robots:
         index: true
 
     category:
       isEnabled: true
-      pathname: 'category' # Category main path /category/some-category, you can change this to "group" (/group/some-category)
+      pathname: 'category' # Contoh: /category/cosmos
       robots:
         index: true
 
     tag:
       isEnabled: true
-      pathname: 'tag' # Tag main path /tag/some-tag, you can change this to "topics" (/topics/some-category)
+      pathname: 'tag'
       robots:
         index: false
 
@@ -66,7 +67,7 @@ apps:
 analytics:
   vendors:
     googleAnalytics:
-      id: null # or "G-XXXXXXXXXX"
+      id: null # Masukkan ID Google Analytics (G-XXXXXXXXXX) jika nanti sudah dibuat
 
 ui:
-  theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
+  theme: 'system' # Otomatis mengikuti tema perangkat pembaca (Dark/Light mode)
