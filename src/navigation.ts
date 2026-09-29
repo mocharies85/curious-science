@@ -10,20 +10,24 @@ export const headerData = {
           href: getPermalink('cosmos', 'category'),
         },
         {
-          text: 'Quantum & Physics',
+          text: 'Quantum & Fundamental Physics',
           href: getPermalink('physics', 'category'),
         },
         {
-          text: 'Earth & Deep Sea',
+          text: 'Deep Earth & Abyssal Oceans',
           href: getPermalink('earth', 'category'),
         },
         {
-          text: 'Mind & Evolution',
+          text: 'Mind, Consciousness & Evolution',
           href: getPermalink('mind', 'category'),
         },
         {
-          text: 'Scientific Anomalies',
+          text: 'Scientific Paradoxes',
           href: getPermalink('anomalies', 'category'),
+        },
+        {
+          text: 'Future Horizons',
+          href: getPermalink('future', 'category'),
         },
       ],
     },
@@ -49,10 +53,11 @@ export const footerData = {
       title: 'Topics',
       links: [
         { text: 'Cosmos & Astrophysics', href: getPermalink('cosmos', 'category') },
-        { text: 'Quantum & Physics', href: getPermalink('physics', 'category') },
-        { text: 'Earth & Deep Sea', href: getPermalink('earth', 'category') },
-        { text: 'Mind & Evolution', href: getPermalink('mind', 'category') },
-        { text: 'Scientific Anomalies', href: getPermalink('anomalies', 'category') },
+        { text: 'Quantum & Fundamental Physics', href: getPermalink('physics', 'category') },
+        { text: 'Deep Earth & Abyssal Oceans', href: getPermalink('earth', 'category') },
+        { text: 'Mind, Consciousness & Evolution', href: getPermalink('mind', 'category') },
+        { text: 'Scientific Paradoxes', href: getPermalink('anomalies', 'category') },
+        { text: 'Future Horizons', href: getPermalink('future', 'category') },
       ],
     },
     {
