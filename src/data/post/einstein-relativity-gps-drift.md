@@ -2,7 +2,7 @@
 publishDate: 2026-09-29T00:00:00Z
 title: "If Engineers Ignored Einstein’s Math, Google Maps Would Fail by 10 Kilometers Daily"
 excerpt: "Relativity is often treated as abstract theoretical science reserved for black holes. In reality, modern satellite navigation collapses within minutes without it."
-image: "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?auto=format&fit=crop&w=1200&q=80"
+image: "~/assets/images/einstein-relativity-gps.jpg"
 category: "anomalies"
 tags:
   - general relativity

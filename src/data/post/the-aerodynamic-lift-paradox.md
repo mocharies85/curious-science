@@ -2,7 +2,7 @@
 publishDate: 2026-09-29T00:00:00Z
 title: "The Physics Lie in Every Textbook: How Airplanes Actually Fly"
 excerpt: "Most school science books explain flight using Bernoulli's principle and the 'equal transit time' theory. Aerodynamic engineers know that theory is dead wrong."
-image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+image: "~/assets/images/aerodynamic-lift-paradox.jpg"
 category: "physics"
 tags:
   - fluid dynamics

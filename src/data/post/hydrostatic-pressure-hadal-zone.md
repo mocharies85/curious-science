@@ -2,7 +2,7 @@
 publishDate: 2026-09-29T00:00:00Z
 title: "The Brutal Math of the Mariana Trench: Why Water Can Crush Steel but Spare Flesh"
 excerpt: "At 11,000 meters beneath the surface, hydrostatic pressure reaches 1,100 atmospheres. How physics destroys engineered metal hulls while abyssal life thrives."
-image: "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1200&q=80"
+image: "~/assets/images/hydrostatic-pressure-deep-sea.jpg"
 category: "earth"
 tags:
   - oceanography

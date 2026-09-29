@@ -2,7 +2,7 @@
 publishDate: 2026-09-29T00:00:00Z
 title: "The 400-Year-Old Geometry Law Quietly Keeping Starlink From Falling From the Sky"
 excerpt: "In 1619, Johannes Kepler calculated planetary motion using quills and candlelight. Today, his third law governs thousands of commercial satellites orbiting Earth."
-image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80"
+image: "~/assets/images/kepler-satellite-orbit.jpg"
 category: "cosmos"
 tags:
   - astrophysics

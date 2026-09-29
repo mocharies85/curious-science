@@ -2,7 +2,7 @@
 publishDate: 2026-09-29T00:00:00Z
 title: "Your Consciousness Is a 90-Millivolt Salt Battery: The Biophysics of Human Thought"
 excerpt: "Every thought, heartbreak, and sensory perception is powered by the Nernst Equation—a delicate electrical gradient sustained by microscopic sodium and potassium pumps."
-image: "https://images.unsplash.com/photo-1507413245164-6160d8298b31?auto=format&fit=crop&w=1200&q=80"
+image: "~/assets/images/nernst-equation-neuron.jpg"
 category: "mind"
 tags:
   - neuroscience
