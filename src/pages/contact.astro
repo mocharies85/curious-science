@@ -1,25 +1,23 @@
 ---
-import Layout from '~/layouts/PageLayout.astro';
-import HeroText from '~/components/widgets/HeroText.astro';
 import ContactUs from '~/components/widgets/Contact.astro';
 import Features2 from '~/components/widgets/Features2.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Layout from '~/layouts/PageLayout.astro';
 
 const metadata = {
-  title: 'Contact',
-  description:
-    'Contact page demo built with AstroWind: a form, contact details and support links in one accessible layout.',
+  title: 'Contact - Curious Science',
 };
 ---
 
 <Layout metadata={metadata}>
   <!-- HeroText Widget ******************* -->
 
-  <HeroText tagline="Contact" title="Let's Connect!" />
+  <HeroText tagline="EDITORIAL DESK" title="Connect with Us" />
 
   <ContactUs
     id="form"
-    title="Drop us a message today!"
-    subtitle="For quicker answers, explore our FAQs section. You may find the solution you're looking  for right there! If not, our support team is delighted to help you."
+    title="Send a Scientific Inquiry"
+    subtitle="Whether you have an observation regarding an equation, an editorial errata report, or a cross-disciplinary proposal, our desk reviews all thoughtful correspondence."
     inputs={[
       {
         type: 'text',
@@ -33,48 +31,53 @@ const metadata = {
       },
     ]}
     textarea={{
-      label: 'Message',
+      label: 'Inquiry / Mathematical Observation',
+      rows: 5,
     }}
     disclaimer={{
       label:
-        'By submitting this contact form, you acknowledge and agree to the collection of your personal information.',
+        'By submitting this inquiry, you agree to our standard academic and privacy guidelines.',
     }}
-    description="Our support team typically responds within 24 business hours."
+    description="Editorial inquiries are evaluated within 24 to 48 hours."
   />
 
-  <!-- Features2 Widget ************** -->
+  <!-- Features2 Widget (Channels) ************** -->
 
   <Features2
-    title="We are here to help!"
+    title="Direct Correspondence Channels"
     items={[
       {
-        title: 'General support',
-        description: `Chat with us for inquiries related to account management, website navigation, payment issues, accessing purchased templates or general questions about the website's functionality.`,
-      },
-      {
-        title: 'Contact sales',
+        title: 'Editorial & Monograms',
         description:
-          'Chat with us for questions about purchases, customization options, licensing for commercial use, inquiries about specific template, etc.',
+          'Submit essay proposals, theoretical physics dissections, or inquiries regarding our published articles.',
+        icon: 'tabler:writing',
       },
       {
-        title: 'Technical support',
+        title: 'Scientific Errata',
         description:
-          'Chat with us when facing issues like template installation, problems editing difficulties, compatibility issues with software or download errors, or other technical challenges related to using the templates.',
+          'Empirical precision is non-negotiable. Report formula discrepancies or request formal editorial corrections.',
+        icon: 'tabler:math',
       },
       {
-        title: 'Phone',
-        description: '+1 (234) 567-890',
-        icon: 'tabler:headset',
+        title: 'Syndication & Media',
+        description:
+          'Inquiries regarding article republication, citation attribution, and academic referencing.',
+        icon: 'tabler:world',
       },
       {
-        title: 'Email',
-        description: 'contact@support.com',
+        title: 'Desk Email',
+        description: 'editorial@curious-science.pages.dev',
         icon: 'tabler:mail',
       },
       {
-        title: 'Location',
-        description: '1234 Lorem Ipsum St, 12345, Miami, EEUU',
-        icon: 'tabler:map-pin',
+        title: 'Editorial Hours',
+        description: 'Monday – Friday, 09:00 – 17:00 UTC',
+        icon: 'tabler:clock',
+      },
+      {
+        title: 'Publication Base',
+        description: 'Independent Digital Scientific Journal',
+        icon: 'tabler:compass',
       },
     ]}
   />
