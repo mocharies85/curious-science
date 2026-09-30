@@ -96,8 +96,6 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     metadata,
 
     Content: Content,
-    // or 'content' in case you consume from API
-
     readingTime: remarkPluginFrontmatter?.readingTime,
   };
 };
@@ -106,9 +104,11 @@ const load = async function (): Promise<Array<Post>> {
   const posts = await getCollection('post');
   const normalizedPosts = posts.map(async (post) => await getNormalizedPost(post));
 
+  const now = new Date();
+
   const results = (await Promise.all(normalizedPosts))
     .sort((a, b) => b.publishDate.valueOf() - a.publishDate.valueOf())
-    .filter((post) => !post.draft);
+    .filter((post) => !post.draft && (import.meta.env.DEV || post.publishDate <= now));
 
   return results;
 };
