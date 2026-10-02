@@ -36,6 +36,10 @@ export const headerData = {
       href: getBlogPermalink(),
     },
     {
+      text: 'Popular',
+      href: getPermalink('/popular'),
+    },
+    {
       text: 'About',
       href: getPermalink('/about'),
     },
