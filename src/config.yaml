@@ -1,6 +1,6 @@
 site:
   name: 'Curious Science'
-  site: 'https://curious-science.pages.dev'
+  site: 'https://curiousscience.curiolot.com'
   base: '/'
   trailingSlash: false
 
