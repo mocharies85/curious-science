@@ -1,5 +1,5 @@
 ---
-publishDate: 2026-10-03T08:00:00Z
+publishDate: 2026-10-14T02:00:00Z
 title: "False Vacuum Decay: Why the Universe Might Be Trapped in a Fragile Illusion"
 excerpt: "Precise measurements of the Higgs boson and top quark suggest our universe does not sit at the true ground state of energy, but in a metastable false vacuum capable of catastrophic collapse."
 image: ~/assets/images/false-vacuum-decay.jpg

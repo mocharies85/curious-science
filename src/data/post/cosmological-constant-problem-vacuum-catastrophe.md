@@ -1,5 +1,5 @@
 ---
-publishDate: 2026-10-03T12:00:00Z
+publishDate: 2026-10-15T02:00:00Z
 title: "The Cosmological Constant Problem: The 120-Order-of-Magnitude Catastrophe in Theoretical Physics"
 excerpt: "When quantum field theory calculates the energy density of empty space, its prediction exceeds astronomical observations by a factor of 10¹²⁰—the most disastrous theoretical discrepancy in the history of science."
 image: ~/assets/images/cosmological-constant-problem.jpg

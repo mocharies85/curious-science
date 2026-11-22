@@ -1,5 +1,5 @@
 ---
-publishDate: 2026-10-03T15:00:00Z
+publishDate: 2026-10-16T02:00:00Z
 title: "The Wheeler-DeWitt Equation: Why Time Disappears at the Quantum Foundation of the Universe"
 excerpt: "When physicists first attempted to merge Einstein's general relativity with quantum mechanics, the variable representing time completely vanished from their master equation—leaving behind the profound 'Problem of Time'."
 image: ~/assets/images/wheeler-dewitt-equation.jpg

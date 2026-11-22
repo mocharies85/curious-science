@@ -1,5 +1,5 @@
 ---
-publishDate: 2026-10-03T02:00:00Z
+publishDate: 2026-10-13T02:00:00Z
 title: "The Holographic Principle: Why Our 3D Universe May Be Stored on a 2D Boundary"
 excerpt: "If entropy scales with surface area rather than volume, the three-dimensional fabric of space and time could be nothing more than an optical projection encoded on a distant two-dimensional cosmic boundary."
 image: ~/assets/images/holographic-principle.jpg

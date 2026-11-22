@@ -1,5 +1,5 @@
 ---
-publishDate: 2026-10-04T00:00:00Z
+publishDate: 2026-10-19T02:00:00Z
 title: "The Poincaré Recurrence and Boltzmann Brains: Why an Eternal Universe Threatens Reality"
 excerpt: "If the cosmos endures forever and obeys statistical mechanics, every physical configuration must repeat infinitely—giving rise to the disturbing paradox of conscious minds fluctuating spontaneously out of thermal chaos."
 image: ~/assets/images/boltzmann-brains.jpg
